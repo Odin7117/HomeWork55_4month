@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.autorization-title{
+  /* padding-top: 60px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 4rem;
+  line-height: 59px;
+  /* padding-bottom: 80px; */
+}
+.autorization{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+}
+
+.autorization-e-mail-title , .autorization-password-title{
+  padding-bottom: 12px;
+  font-weight: 400;
+}
+.autorization-password-title{
+  padding-top: 12px;
+}
+.autorization-e-mail,
+.autorization-password{
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  box-shadow: 10px 10px 20px #00000038;
+  background-color: white;
+}
+.autorization-e-mail:hover,
+.autorization-password:hover{
+  outline: 2px solid #2C2670;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 25px;
+}
+.form-autorization{
+  width: max-content;
+  max-width: 650px;
+}
+.form-autorization h4{
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 29px;
+  color: #2C2670;
+  padding-top: 20px;
+}
+.sign-in,.sign-up{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 24px;
+  color: #FFFFFF;
+  box-shadow: 10px 10px 20px #00000038;
+}
+.sign-in{
+  height: 59px;
+  background-color: #16A767;
+}
+.sign-up{
+  height: 59px;
+  background: #2C2670;
+}
+.buttons{
+  display: grid;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.autorization-e-mail-title span{
+  font-weight: 500;
+}
